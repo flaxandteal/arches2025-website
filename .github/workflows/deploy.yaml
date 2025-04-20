@@ -49,7 +49,7 @@ jobs:
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm i --include=dev || true"
       - name: Run preindex for Starches
-        run: "node utils/preindex.ts"
+        run: "node --loader ts-node/esm/transpile-only utils/preindex.ts"
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
