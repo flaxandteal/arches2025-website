@@ -10,7 +10,6 @@ async function parseTimetable(sessions, getTalkUrl) {
   ];
   const csv = await fs.promises.readFile('prebuild/timetable.csv');
   const promises = parse(csv).map((line: string[]) => {
-      console.log(line);
       // Work with each record
       return Promise.all(days.map(day => {
         const times = day.times;
