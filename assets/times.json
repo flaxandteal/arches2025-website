@@ -1,0 +1,266 @@
+[
+  [
+    {
+      "time": "9:00",
+      "session": "",
+      "title": "T/C"
+    },
+    {
+      "time": "9:30",
+      "session": "",
+      "title": "Opening Remarks"
+    },
+    {
+      "time": "10:15",
+      "session": "",
+      "title": "Discussion, Networking, Emergency Coffee & Tech Setup"
+    },
+    {
+      "time": "10:30",
+      "session": "1.1",
+      "title": "Dive into Arches Lingo & Arches Controlled Lists",
+      "url": "/sessions/?slug=DiveintoArchesLingoA_179b85",
+      "presenters": [
+        "Rob Gaston"
+      ]
+    },
+    {
+      "time": "11:00",
+      "session": "1.2",
+      "title": "Migrating RDM Data to Arches Lingo and/or Arches Controlled Lists",
+      "url": "/sessions/?slug=MigratingRDMDatatoAr_8f061c",
+      "presenters": [
+        "Johnathan Clementi"
+      ]
+    },
+    {
+      "time": "11:30",
+      "session": "1.3",
+      "title": "Demonstrating integrations with Arches",
+      "url": "/sessions/?slug=Demonstratingintegra_97cc9a",
+      "presenters": [
+        "Rob Tice",
+        "Samuel Scanrett"
+      ]
+    },
+    {
+      "time": "12:00",
+      "session": "1.4",
+      "title": "From talks to workflows",
+      "url": "/sessions/?slug=Fromtalkstoworkflows_a864ff",
+      "presenters": [
+        "Jana Lorencova"
+      ]
+    },
+    {
+      "time": "12:30",
+      "session": "",
+      "title": "Lunch"
+    },
+    {
+      "time": "13:30",
+      "session": "2.1",
+      "title": "Making your models SPIFFIE",
+      "url": "/sessions/?slug=MakingyourmodelsSPIF_9aee31",
+      "presenters": [
+        "Ron van den Branden",
+        "George Brusseker",
+        "Sjoerd Siebinga"
+      ]
+    },
+    {
+      "time": "14:00",
+      "session": "2.2",
+      "title": "Attribute Based Permissions in Arches",
+      "url": "/sessions/?slug=AttributeBasedPermis_f94ef3",
+      "presenters": [
+        "Aaron Gundel"
+      ]
+    },
+    {
+      "time": "14:30",
+      "session": "2.3",
+      "title": "Accelerating Arches Application Development with Arches QuerySets",
+      "url": "/sessions/?slug=AcceleratingArchesAp_08ca82",
+      "presenters": [
+        "Jacob Walls"
+      ]
+    },
+    {
+      "time": "15:00",
+      "session": "",
+      "title": "Break"
+    },
+    {
+      "time": "15:30",
+      "session": "3.1",
+      "title": "High Performance Reporting in Arches using Vue",
+      "url": "/sessions/?slug=HighPerformanceRepor_f2f430",
+      "presenters": [
+        "Alexei Peters"
+      ]
+    },
+    {
+      "time": "16:00",
+      "session": "3.2",
+      "title": "Dashboarding in Arches",
+      "url": "/sessions/?slug=DashboardinginArches_c7f6c7",
+      "presenters": [
+        "Stuart Marshall"
+      ]
+    },
+    {
+      "time": "16:30",
+      "session": "3.3",
+      "title": "Frontend Development and Vue Integration in Arches v8",
+      "url": "/sessions/?slug=FrontendDevelopmenta_2f799f",
+      "presenters": [
+        "Christopher Byrd"
+      ]
+    },
+    {
+      "time": "19:00",
+      "session": "",
+      "title": "F&T Dinner (if possible)"
+    },
+    {
+      "time": "19:15",
+      "session": "",
+      "title": "Maybe Dirty Duck?"
+    },
+    {
+      "time": "19:30",
+      "session": "",
+      "title": "Grace Neill's (or maybe Sunday on Peninsula?)"
+    }
+  ],
+  [
+    {
+      "time": "9:00",
+      "session": "",
+      "title": "T/C"
+    },
+    {
+      "time": "9:15",
+      "session": "",
+      "title": "Opening Remarks"
+    },
+    {
+      "time": "9:45",
+      "session": "4.1",
+      "title": "A K-Int showcase on new core features",
+      "url": "/sessions/?slug=AKIntshowcaseonnewco_578879",
+      "presenters": [
+        "Chris Damm",
+        "Samuel Scanrett"
+      ]
+    },
+    {
+      "time": "10:15",
+      "session": "4.2",
+      "title": "CSV Import ",
+      "url": "/sessions/?slug=CSVImport_5d2efa",
+      "presenters": [
+        "Mike Griniezakis"
+      ]
+    },
+    {
+      "time": "10:45",
+      "session": "4.3",
+      "title": "Reworking SQL migration strategy",
+      "url": "/sessions/?slug=ReworkingSQLmigratio_c321d5",
+      "presenters": [
+        "Brett Ferguson"
+      ]
+    },
+    {
+      "time": "11:15",
+      "session": "",
+      "title": "Coffee"
+    },
+    {
+      "time": "11:30",
+      "session": "5.1",
+      "title": "Evolving Search in Arches: an LLM-interpreted NLP proposal and Leveraging Resource relations in Search Results  ",
+      "url": "/sessions/?slug=EvolvingSearchinArch_0a7130",
+      "presenters": [
+        "Galen Mancino"
+      ]
+    },
+    {
+      "time": "12:00",
+      "session": "5.2",
+      "title": "Developing a Custom Search Plugin to Manage Reference and Sample Collections in Arches",
+      "url": "/sessions/?slug=DevelopingaCustomSea_1d20a0",
+      "presenters": [
+        "Cyrus Hiatt"
+      ]
+    },
+    {
+      "time": "12:30",
+      "session": "",
+      "title": "Lunch"
+    },
+    {
+      "time": "13:30",
+      "session": "6.1",
+      "title": "Using the Esri Mobile App for Arches Field Data Collection",
+      "url": "/sessions/?slug=UsingtheEsriMobileAp_c7d073",
+      "presenters": [
+        "Namjun Kim"
+      ]
+    },
+    {
+      "time": "14:00",
+      "session": "6.2",
+      "title": "Extrados - An external layer for Arches deployments",
+      "url": "/sessions/?slug=ExtradosAnexternalla_574cbb",
+      "presenters": [
+        "Owen McEvoy"
+      ]
+    },
+    {
+      "time": "14:30",
+      "session": "",
+      "title": "Break"
+    },
+    {
+      "time": "15:00",
+      "session": "6.3",
+      "title": "Using Open Data Kit (ODK) for Digital Field Surveys: Exploring ODK & Arches Data Integration Solutions",
+      "url": "/sessions/?slug=UsingOpenDataKitODKf_772bec",
+      "presenters": [
+        "Junaid Abdul Jabbar"
+      ]
+    },
+    {
+      "time": "15:30",
+      "session": "6.4",
+      "title": "Updates to the Arches QGIS plugin",
+      "url": "/sessions/?slug=UpdatestotheArchesQG_641beb",
+      "presenters": [
+        "Samuel Scanrett"
+      ]
+    },
+    {
+      "time": "16:00",
+      "session": "",
+      "title": "Updates on Arches Governance "
+    },
+    {
+      "time": "16:15",
+      "session": "",
+      "title": "(Kevin Kochanski & Alison Dalgity, GCI) "
+    },
+    {
+      "time": "16:30",
+      "session": "",
+      "title": "Discussion"
+    },
+    {
+      "time": "19:00",
+      "session": "",
+      "title": "Getty Dinner"
+    }
+  ]
+]

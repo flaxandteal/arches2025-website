@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{- $js := resources.Get "session.ts" -}}
+{{ $params := (dict "search_config" site.Params.search_config "is_production" hugo.IsProduction ) }}
+{{ $sourceMap := cond hugo.IsProduction "" "inline" }}
+{{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2020" "params" $params }}
+{{ $js = $js | js.Build $opts }}
+{{ if hugo.IsProduction }}
+  {{ $js = $js | fingerprint }}
+{{ end }}
+<script
+  src="{{ $js.RelPermalink }}"
+  {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }}
+  type="module"></script>
+<style>
+.alizarin-concept-value {
+  font-size: 80%;
+  background: #88e0e0;
+  color: teal;
+  padding: 3px;
+}
+</style>
+
+<div class="main-container">
+  <section class="speakers">
+    <div class="container">
+      <div class="row">
+        <div class="speaker col-md-9">
+          <a href="/agenda">Back to agenda</a>
+        </div>
+        <div class="session-description col-md-9">
+          <article id="asset">
+          </article>
+        </div>
+      </div>
+  </section>
+</div>
+
+{{ partial "footer.html" . }}

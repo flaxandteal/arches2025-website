@@ -3,37 +3,47 @@ title = "Venue"
 layout = "generic"
 +++
 
-# Venue
+# Location
 
-Riddel Hall, 185 Stranmillis Road, Belfast BT9 5EE
+Address: Belfast Castle, Antrim Road, Belfast, BT15 5GR
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2312.571346010759!2d-5.937136684114829!3d54.576306080255215!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486108e9a278df55%3A0x79f7e47de7983186!2sRiddel+Hall!5e0!3m2!1sen!2suk!4v1518300225307" frameborder="0" style="width:100%; height:450px; border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2308.8001579699207!2d-5.94482242218606!3d54.64273707269366!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4861a787f660ae47%3A0x7aad5e4b6f351727!2sBelfast%20Castle!5e0!3m2!1sen!2suk!4v1745105640641!5m2!1sen!2suk" height="400px" width="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-### Transport
+Google Maps: https://maps.app.goo.gl/t94Wu124KbQb6qnv8
 
-Due to construction work on a new teaching block at Riddel Hall, a very limited amount of parking will be available on site and we request that these spaces be left for visitors with accessibility requirements. We recommend using public transport if possible, but the free Stranmillis Road public car park is a 400 yard walk from the venue and on-street parking is free on Saturdays.
+What3Words: https://w3w.co/gained.save.hammer
 
-Bicycle stands are available.
+## Getting to Belfast Castle
 
-The nearest train station is Botanic, approximately 1 mile from the venue.
+#### 🚖 By Taxi
 
-Bus service 8a runs twice an hour from the city centre to the Stranmillis Mews stop outside Riddel Hall, also stopping on Bradbury Place near Botanic Station.
+Approximately 10–15 minutes from Belfast city centre (£8–£12).
 
-<!-- MXA: Ride-sharing: we will attempt to put you in touch with others wishing to carpool or share a taxi from outside Belfast. Please fill in <a href='https://docs.google.com/forms/d/e/1FAIpQLSd8Al8tdNvCl_sXW7gFllotDpVTc9eWOcqeYacP4q38KSEGmg/viewform'>this form</a>. -->
+Easy to book via Value Cabs, Fon-A-Cab, or Uber. Do allow additional time in the mornings, as traffic congestion can significantly increase travel time, especially near 9am.
 
-### Accessibility
+While Uber services are usually well served in the Belfast city centre, you may experience difficulty getting an Uber from Belfast Castle. It is advisable to pre-book a local taxi or Uber if you anticipate needing transport from the venue.
 
-Please see the <a href='/accessibility/'>accessibility and access page</a> for more information.
+We will be helping to carpool, as we know some delegates are staying at specific city centre hotels (please reach out for more information). The [Lansdowne Hotel](https://www.thelansdownehotel.co.uk/) is closest to the venue, but does involve a steep walk.
 
-<!-- MXA: ### After-Party
+#### 🚌 By Bus
 
-The After-Party will be held at the <a href="http://thebotanicinn.com/">Botanic Inn</a> from 18:30 onwards (food from 18:45). Complimentary food and drink tokens will be handed out after the closing plenary session in Riddel Hall. These cover a burger or chips (except where we have been made of additional dietary requirements) <em>and</em> a soft drink, Corona or red wine. -->
+[Metro Bus 1](https://trn-prd-cdn-01.azureedge.net/mediacontainer/medialibraries/translink/route-maps/metro/metro1.pdf) (1A, 1B, 1C) from Donegall Place (city centre) to Antrim Road.
 
-### Floor Plan
-![Floor plan](/img/floorplan-rh.png)
+Get off at Strathmore Park and enjoy a scenic walk (~18 minutes uphill) to the castle.
 
-[**Map Legend**] *GR: Green Room; PR: Project Room; QR: Quiet Room*
+#### 🚗 By Car
 
-### Anything else
+Free parking available at Belfast Castle.
 
-If there is information that you feel should be here, but is not, please let us know at <a href="mailto:inbox@nidevconf.com">inbox@nidevconf.com</a>.
+From city centre: Drive north on Antrim Road (A6), follow signs for Belfast Castle.
+
+Maps: search for Belfast Castle Car Park 3. There are additional car parks nearby if Car Park 3 is full.
+
+For those with Disability Parking Permits: accessible parking bays are available outside the main doors of Belfast Castle.
+
+Note: The castle sits on a hill within Cave Hill Country Park, so bring comfortable shoes if you fancy exploring a bit.
+Belfast Castle, Antrim Road, Belfast, BT15 5GR
+
+## Accessibility
+
+Please reach out to us if you have any accessibility queries. While our event will be held on the ground floor, we can specifically confirm any limitations or accommodations required with the venue, so please do let us know well in advance if possible.

@@ -1,0 +1,14 @@
+baseURL = "/"
+languageCode = "en-gb"
+title = "Arches Developer Meetup 2025"
+theme = "nidevconf"
+publishDir = "public"
+canonifyurls = true
+assetDir = "assets"
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+  year = "2025"
+  bookingurl = "https://www.eventbrite.com/e/arches-developer-meetup-2025-global-event-in-belfast-tickets-1273355002089"

@@ -1,0 +1,190 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+{{ $resource := resources.Get "times.json" }}
+{{ $times := getJSON "assets" $resource.RelPermalink }}
+{{ $sessions := where .Site.Pages "Section" "sessions" }}
+{{ $lightnings := where $sessions "Params.lightning" true }}
+
+<style>
+  .agendaHeader {
+    background-color: #e0e0e0;
+    margin-bottom: 2em;
+  }
+  .agendaHeader h3 {
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
+  }
+  .agendaHeader h3 a {
+    text-decoration: underline;
+    font-weight: bold;
+    color: inherit;
+  }
+  .agenda {
+    border: solid 1px #35566a;
+  }
+  .agenda table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  .agenda td {
+    padding: 0.25em 1em;
+    border: solid 2px white;
+  }
+  .agenda td.agendaBlocked {
+    background-color: #FFFFFF !important;
+  }
+  .agenda tr:first-child td {
+    font-weight: bold;
+    color: white;
+    background-color: #35566a;
+    text-align: center;
+  }
+  .agenda tr td:first-child {
+    font-weight: bold;
+    color: white;
+    background-color: #35566a;
+    text-align: center;
+    white-space: nowrap;
+  }
+  .agenda tr:nth-child(2n) td:nth-child(2n) {
+    background-color: #E0E0E0;
+  }
+  .agenda tr:nth-child(2n) td:nth-child(2n+3) {
+    background-color: #E8E8E8;
+  }
+  .agenda tr:nth-child(2n+3) td:nth-child(2n) {
+    background-color: #F0F0F0;
+  }
+  .agenda tr:nth-child(2n+3) td:nth-child(2n+3) {
+    background-color: #F8F8F8;
+  }
+  .agenda table tr td.agendaSeparator {
+    text-align: center;
+    font-weight: bold;
+    color: inherit;
+    background-color: #CCC !important;
+    border: solid 2px white;
+  }
+  .agenda td.lightnings div {
+    font-size: 75%;
+    line-height: 1.25em;
+    margin-bottom: 0.25em;
+  }
+
+  .agendaSlot {
+    margin: 0.5em;
+  }
+  .agendaSeparator, .agendaTime {
+    background-color: #DDD;
+  }
+
+  @media (max-width:991px) {
+      .agendaRoom {
+          display: inline;
+      }
+  }
+
+  @media (min-width: 992px) {
+      .agendaRoom {
+          display: none;
+      }
+  }
+</style>
+
+<div class="main-container">
+  <a id="top"></a>
+  <section class="speakers">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 id="agenda">Agenda</h1>
+          <p>
+            Please note the timings below are subject to change!
+          </p>
+          <div></div>
+        </div>
+      </div>
+      {{ range $index, $day := $times }}
+      <hr/>
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 id="agenda">Day {{ add $index 1 }}</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="agenda">
+
+            <div class="visible-xs visible-sm">
+              {{ range $day }}
+                {{ $time := .time }}
+                <div class="agendaSlot">
+                  <div class="agendaTime">
+                    {{ $time }}
+                  </div>
+                  <div class="agendaItem">
+                    {{ .title }}
+                  </div>
+                </div>
+              {{ end }}
+            </div>
+            
+            <table class="visible-md visible-lg">
+                    <tr>
+                      <td width=0.1%>
+                      </td>
+                      <td width=20%>
+                      </td>
+                      <td width=60%>
+                      </td>
+                      <td width=20%>
+                      </td>
+                    </tr>
+              <tr>
+                <td class="agendaTimeHead" width=0.1%>&nbsp;</td>
+                <td colspan="3">Main Room</td>
+              </tr>
+              {{ range $index, $slot := $day }}
+                {{ $time := $slot.time }}
+                {{ $title := $slot.title }}
+                {{ $session := $slot.session }}
+                <tr>
+                  {{ if $session }}
+                    <tr>
+                      <td class="agendaTimeHead">
+                        {{ $time }}
+                      </td>
+                      <td colspan="1" width=20%>
+                        {{ $session }}
+                      </td>
+                      <td class="agendaItem" width=60%>
+                        <a href="{{ .url }}">{{ $title }}</a>
+                      </td>
+                      <td class="agendaItem" width=20%>
+                        {{ delimit .presenters ", " }}
+                      </td>
+                    </tr>
+                  {{ else if $title }}
+                    <tr>
+                      <td class="agendaTimeHead">
+                        {{ $time }}
+                      </td>
+                      <td colspan="4" class="agendaSeparator">
+                        {{ $title }}
+                      </td>
+                    </tr>
+                  {{ end }}
+                </tr>
+              {{ end }}
+            </table>
+
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</div>
+
+{{ partial "footer.html" . }}
