@@ -3,6 +3,7 @@ languageCode = "en-gb"
 title = "Arches Developer Meetup 2025"
 theme = "nidevconf"
 publishDir = "public"
+canonifyurls = true
 assetDir = "assets"
 
 [markup.goldmark.renderer]

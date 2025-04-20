@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>
+        {{ if eq .Site.Title .Title }}
+            {{ .Site.Title }}
+        {{ else if eq .Title "Agendas" }}
+            Agenda - {{ .Site.Title }}
+        {{ else if eq .Title "Teams" }}
+            Team - {{ .Site.Title }}
+        {{ else }}
+            {{ .Title }} - {{ .Site.Title }}
+        {{ end }}
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <script src='https://js.tito.io/v1' async></script>
+    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/elegant-icons.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/pe-icon-7-stroke.min.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/theme-NIDevConf.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/font/styles.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="/css/main.css" rel="stylesheet" type="text/css" media="all" />
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdn-images.mailchimp.com/embedcode/slim-10_7.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/863434f3f0.css">
+    <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
+    <base href="{{ .Site.BaseURL }}"/>
+</head>
