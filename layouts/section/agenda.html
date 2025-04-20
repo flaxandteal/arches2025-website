@@ -1,8 +1,7 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 
-{{ $resource := resources.Get "times.json" }}
-{{ $times := getJSON "assets" $resource.RelPermalink }}
+{{ $times := getJSON "assets/" "times.json" }}
 {{ $sessions := where .Site.Pages "Section" "sessions" }}
 {{ $lightnings := where $sessions "Params.lightning" true }}
 
