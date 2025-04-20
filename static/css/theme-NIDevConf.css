@@ -3510,3 +3510,8 @@ h2 a,
 h2 a:hover {
   color: inherit;
 }
+
+.hero h1 {
+  color: white;
+  font-size: 400%;
+}

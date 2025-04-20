@@ -123,7 +123,11 @@
                     {{ $time }}
                   </div>
                   <div class="agendaItem">
+                    {{ if .url }}
+                    <a href="{{ .url }}">{{ .title }}</a>
+                    {{ else }}
                     {{ .title }}
+                    {{ end }}
                   </div>
                 </div>
               {{ end }}
