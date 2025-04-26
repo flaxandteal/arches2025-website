@@ -5,7 +5,7 @@ import { assetFunctions } from './functions.ts';
 class AssetIndexing {
   async postHook(graphManager: GraphManager) {
     // Parse the CSV content
-    const Session = graphManager.get("Session");
+    const Session = await graphManager.get("Session");
     const sessions = Object.fromEntries(
       await Promise.all(
         [...await Promise.all(await Session.all())].map(

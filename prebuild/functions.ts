@@ -13,11 +13,10 @@ class AssetFunctions implements IAssetFunctions {
   }
 
   async getAll(graphManager: GraphManager) {
-    const Session = graphManager.get("Session");
-    const Talk = graphManager.get("Talk");
-    const Institution = graphManager.get("Institution");
-    const Person = graphManager.get("Person");
-    // const MaritimeVessel = graphManager.get("MaritimeVessel");
+    const Session = await graphManager.get("Session");
+    const Talk = await graphManager.get("Talk");
+    const Institution = await graphManager.get("Institution");
+    const Person = await graphManager.get("Person");
     return [
       await Session.all({lazy: true}),
       await Institution.all({lazy: true}),
