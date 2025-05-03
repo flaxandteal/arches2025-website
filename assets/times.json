@@ -3,7 +3,7 @@
     {
       "time": "9:00",
       "session": "",
-      "title": "T/C"
+      "title": "Teas & Coffees"
     },
     {
       "time": "9:30",
@@ -13,7 +13,7 @@
     {
       "time": "10:15",
       "session": "",
-      "title": "Discussion, Networking, Emergency Coffee & Tech Setup"
+      "title": "Networking & DINNER BOOKING"
     },
     {
       "time": "10:30",
@@ -119,16 +119,26 @@
       ]
     },
     {
-      "time": "19:00",
+      "time": "17:00",
       "session": "",
-      "title": "Dirty Duck (Holywood) [TBC]"
+      "title": "Leaving sharply for dinner"
+    },
+    {
+      "time": "18:00",
+      "session": "",
+      "title": "44 Hill St"
+    },
+    {
+      "time": "18:15",
+      "session": "",
+      "title": "(French; Mediterranean)"
     }
   ],
   [
     {
       "time": "9:00",
       "session": "",
-      "title": "T/C"
+      "title": "Teas & Coffees"
     },
     {
       "time": "9:15",
